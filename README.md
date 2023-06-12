@@ -2,6 +2,8 @@
 
 This repository provides a simple solution for displaying a local time clock on a webpage. The objective of this script is to show the local time, specifically for office hours, on a website even if the server is located in a different time zone. Additionally, it includes a cute blinker effect using CSS to enhance the clock's appearance.
 
+![image](https://github.com/1xn/localtime-webclock/blob/main/screenshot.gif?raw=true)
+
 ## Background
 
 By default, web servers often display the time based on their server's location. However, in situations where the website serves a global audience or requires accurate local time representation, it becomes necessary to adapt the displayed time to match the user's time zone.
