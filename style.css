@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.dotseparator {
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100;
+    }
+}
+
+h2 {
+    font-family: Tahoma, sans-serif;
+    font-size: 16.0vw;
+    color: white;
+}

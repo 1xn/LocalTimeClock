@@ -1,52 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <style>
-        body {
-            background-color: black;
-            margin: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-
-        .dotseparator {
-            animation: blinker 1s linear infinite;
-        }
-
-        @keyframes blinker {
-            50% {
-                opacity: 0;
-            }
-            100% {
-                opacity: 100;
-            }
-        }
-
-        h2 {
-            font-family: Tahoma, sans-serif;
-            font-size: 16.0vw;
-            color: white;
-        }
-    </style>
-
-    <!-- Edit your local timezone here -->
-    <script type="text/javascript">
-        function updateTime() {
-            let currentTime = new Date(new Date().toLocaleString("en-US", {timeZone: "Europe/Berlin"}));
-            var hours = currentTime.getHours() % 12 || 12;
-            var minutes = currentTime.getMinutes()
-            if (minutes < 10) {
-                minutes = "0" + minutes
-            }
-            var d = new Date();
-            var amOrPm = (d.getHours() < 12) ? "AM" : "PM";
-            document.getElementById('hours').innerHTML = hours;
-            document.getElementById('minutes').innerHTML = minutes + " " + amOrPm;
-        }
-        setInterval(updateTime, 1000);
-    </script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="clock.js"></script>
 </head>
 <body>
     <h2><span id="hours"></span> <span class="dotseparator">:</span> <span id="minutes"></span></h2>
