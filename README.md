@@ -30,7 +30,7 @@ To use this script on your webpage:
 
 3. Customize the styling of the clock to match your website's design, including adjusting the font size, colors, and positioning as desired.
 
-4. Modify the JavaScript code to set the desired time zone for accurate local time representation. Replace the "Europe/Berlin" time zone with your desired time zone. You can find the available time zone options in the [JavaScript Time Zones](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl#time_zones) documentation.
+4. Modify the JavaScript code to set the desired time zone for accurate local time representation. Replace the "Europe/Berlin" time zone with your desired time zone. You can find the available time zone options in this [JavaScript Time Zones](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) list.
 
 5. Upload the modified webpage, along with the necessary script and style files, to your web server.
 
